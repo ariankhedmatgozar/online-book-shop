@@ -10,17 +10,17 @@
     <header class="p-8 bg-[#14AE5C] grid grid-cols-3 items-center mb-30">
       <div class="flex justify-self-start gap-3 text-[16px]">
         <input
-          class="bg-white text-[#333] rounded-md p-2 shadow focus:outline-none"
+          class="bg-white text-[#333] rounded-md p-2 shadow focus:outline-none login-username"
           type="text"
           placeholder="username"
         />
         <input
-          class="bg-white text-[#333] rounded-md p-2 shadow focus:outline-none"
+          class="bg-white text-[#333] rounded-md p-2 shadow focus:outline-none login-password"
           type="password"
           placeholder="password"
         />
         <button
-          class="py-2 px-3 rounded-md bg-white cursor-pointer hover:opacity-90 hover:shadow transition-all active:bg-[#aaa]"
+          class="py-2 px-3 rounded-md bg-white cursor-pointer hover:opacity-90 hover:shadow transition-all active:bg-[#aaa] login-button"
         >
           Log in
         </button>
@@ -29,17 +29,17 @@
         Online Book Market
       </h1>
     </header>
-    <body>
+    <main>
       <div class="grid grid-cols-3 justify-between gap-8 mx-8">
         <div
           class="bg-[#4AFF7A] px-4 pt-10 pb-6 rounded-2xl max-w-180 relative"
         >
           <div
-            class="flex items-center justify-center font-semibold text-2xl py-3 mb-3"
+            class="flex items-center justify-center font-semibold text-2xl py-3 mb-5"
           >
             <h2>Welcome Back User</h2>
           </div>
-          <div class="grid grid-cols-2 gap-10 justify-between mb-10">
+          <div class="grid grid-cols-2 gap-10 justify-between mb-12">
             <div class="flex flex-col gap-5 bg-white px-6 py-8 rounded-2xl">
               <div class="flex flex-col gap-1">
                 <p class="text-xl font-semibold">User:</p>
@@ -91,7 +91,7 @@
           class="bg-[#4AFF7A] px-4 pt-10 pb-6 rounded-2xl max-w-180 relative"
         >
           <div
-            class="flex items-center justify-center px-8 mb-5 after:content-[''] after:y after:absolute after:bg-[#EEEEEE] after:p-4 after:rounded-4xl after:right-15 after:bg-[url(/src/images/Arrow.png)] after:bg-no-repeat after:bg-auto after:bg-center after:cursor-pointer"
+            class="flex items-center justify-center px-8 mb-7 after:content-[''] after:y after:absolute after:bg-[#EEEEEE] after:p-4 after:rounded-4xl after:right-15 after:bg-[url(/src/images/Arrow.png)] after:bg-no-repeat after:bg-auto after:bg-center after:cursor-pointer"
           >
             <input
               type="text"
@@ -100,100 +100,12 @@
             />
           </div>
           <div class="bg-white px-6 py-6 rounded-2xl text-[0.5rem]">
-            <div class="grid grid-cols-4 gap-3 px-5 mb-5 font-bold">
+            <div
+              class="grid grid-cols-4 gap-3 px-5 mb-5 font-bold books-container"
+            >
               <p class="justify-self-center">name</p>
               <p class="justify-self-center">quantity</p>
               <p class="justify-self-center">price</p>
-            </div>
-            <div
-              class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-8 shadow-md font-semibold"
-            >
-              <div class="grid grid-cols-4 items-center">
-                <p
-                  class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                >
-                  Atomic Habbits
-                </p>
-                <p class="justify-self-center">5</p>
-                <p class="justify-self-center">19$</p>
-                <button
-                  class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                >
-                  add
-                </button>
-              </div>
-            </div>
-            <div
-              class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-8 shadow-md font-semibold"
-            >
-              <div class="grid grid-cols-4 items-center">
-                <p
-                  class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                >
-                  Atomic Habbits
-                </p>
-                <p class="justify-self-center">5</p>
-                <p class="justify-self-center">19$</p>
-                <button
-                  class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                >
-                  add
-                </button>
-              </div>
-            </div>
-            <div
-              class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-8 shadow-md font-semibold"
-            >
-              <div class="grid grid-cols-4 items-center">
-                <p
-                  class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                >
-                  Atomic Habbits
-                </p>
-                <p class="justify-self-center">5</p>
-                <p class="justify-self-center">19$</p>
-                <button
-                  class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                >
-                  add
-                </button>
-              </div>
-            </div>
-            <div
-              class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-8 shadow-md font-semibold"
-            >
-              <div class="grid grid-cols-4 items-center">
-                <p
-                  class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                >
-                  Atomic Habbits
-                </p>
-                <p class="justify-self-center">5</p>
-                <p class="justify-self-center">19$</p>
-                <button
-                  class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                >
-                  add
-                </button>
-              </div>
-            </div>
-            <div
-              class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-4 shadow-md font-semibold"
-            >
-              <div class="grid grid-cols-4 items-center">
-                <p
-                  class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                >
-                  Atomic Habbits
-                </p>
-                <p class="justify-self-center">5</p>
-                <p class="justify-self-center">19$</p>
-                <button
-                  class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                >
-                  add
-                </button>
-              </div>
             </div>
           </div>
         </div>
@@ -201,34 +113,18 @@
           class="bg-[#4AFF7A] px-4 pt-10 pb-6 rounded-2xl max-w-180 relative text-[#333]"
         >
           <div class="flex items-center justify-center">
-            <h2 class="font-semibold py-3 text-2xl mb-3">Shopping Cart</h2>
+            <h2 class="font-semibold py-3 text-2xl mb-5">Shopping Cart</h2>
           </div>
           <div>
             <div
-              class="bg-white px-6 py-6 rounded-2xl text-0.5rem] min-h-105 text-[0.5rem] mb-6"
+              class="bg-white px-6 py-6 rounded-2xl text-0.5rem] min-h-105 text-[0.5rem] mb-8"
             >
-              <div class="grid grid-cols-4 gap-3 px-5 mb-5 font-bold">
+              <div
+                class="grid grid-cols-4 gap-3 px-5 mb-5 font-bold shopping-cart-books-container"
+              >
                 <p class="justify-self-center">name</p>
                 <p class="justify-self-center">quantity</p>
                 <p class="justify-self-center">price</p>
-              </div>
-              <div
-                class="text-[0.5rem] bg-[#FFCA75] px-4 py-3 rounded-md mb-8 shadow-md font-semibold"
-              >
-                <div class="grid grid-cols-4 items-center">
-                  <p
-                    class="min-w-0 w-full justify-self-center overflow-hidden whitespace-nowrap text-ellipsis"
-                  >
-                    Atomic Habbits
-                  </p>
-                  <p class="justify-self-center">5</p>
-                  <p class="justify-self-center">19$</p>
-                  <button
-                    class="bg-[#F9FF54] border px-5 py-2 rounded-md cursor-pointer hover:bg-[#e8ed4e] active:bg-[#f8fc68] transition-all"
-                  >
-                    Remove
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -240,13 +136,14 @@
               <p>19$</p>
             </div>
             <button
-              class="font-semibold text-2xl px-8 rounded-md py-1 bg-[#4AFF7A] border shadow cursor-pointer hover:bg-[#36c95e] active:bg-[#4AFF7A] transition-all"
+              class="font-semibold text-2xl px-8 rounded-md py-1 bg-[#4AFF7A] border shadow cursor-pointer hover:bg-[#36c95e] active:bg-[#4AFF7A] transition-all btn-buy"
             >
               Buy
             </button>
           </div>
         </div>
       </div>
-    </body>
+    </main>
+    <script src="/src/app.js"></script>
   </body>
 </html>

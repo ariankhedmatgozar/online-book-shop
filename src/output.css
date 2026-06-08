@@ -185,6 +185,9 @@
   .mx-8 {
     margin-inline: calc(var(--spacing) * 8);
   }
+  .mb-2 {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
   .mb-3 {
     margin-bottom: calc(var(--spacing) * 3);
   }
@@ -197,11 +200,20 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .mb-7 {
+    margin-bottom: calc(var(--spacing) * 7);
+  }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
+  }
+  .mb-12 {
+    margin-bottom: calc(var(--spacing) * 12);
+  }
+  .mb-14 {
+    margin-bottom: calc(var(--spacing) * 14);
   }
   .mb-30 {
     margin-bottom: calc(var(--spacing) * 30);
@@ -218,44 +230,8 @@
   .min-h-75 {
     min-height: calc(var(--spacing) * 75);
   }
-  .min-h-80 {
-    min-height: calc(var(--spacing) * 80);
-  }
-  .min-h-85 {
-    min-height: calc(var(--spacing) * 85);
-  }
-  .min-h-87 {
-    min-height: calc(var(--spacing) * 87);
-  }
-  .min-h-87\.5 {
-    min-height: calc(var(--spacing) * 87.5);
-  }
   .min-h-105 {
     min-height: calc(var(--spacing) * 105);
-  }
-  .min-h-108 {
-    min-height: calc(var(--spacing) * 108);
-  }
-  .min-h-110 {
-    min-height: calc(var(--spacing) * 110);
-  }
-  .min-h-113 {
-    min-height: calc(var(--spacing) * 113);
-  }
-  .min-h-113\.5 {
-    min-height: calc(var(--spacing) * 113.5);
-  }
-  .min-h-113\.75 {
-    min-height: calc(var(--spacing) * 113.75);
-  }
-  .min-h-\[350px\] {
-    min-height: 350px;
-  }
-  .min-h-\[454px\] {
-    min-height: 454px;
-  }
-  .min-h-\[455px\] {
-    min-height: 455px;
   }
   .w-full {
     width: 100%;
@@ -265,9 +241,6 @@
   }
   .min-w-0 {
     min-width: calc(var(--spacing) * 0);
-  }
-  .min-w-\[220px\] {
-    min-width: 220px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -329,9 +302,6 @@
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
-  .rounded-lg {
-    border-radius: var(--radius-lg);
-  }
   .rounded-md {
     border-radius: var(--radius-md);
   }
@@ -351,9 +321,6 @@
   .bg-\[\#FFCA75\] {
     background-color: #FFCA75;
   }
-  .bg-\[\#\] {
-    background-color: #;
-  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -362,9 +329,6 @@
   }
   .p-8 {
     padding: calc(var(--spacing) * 8);
-  }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
   }
   .px-3 {
     padding-inline: calc(var(--spacing) * 3);
@@ -390,6 +354,12 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
+  .py-4 {
+    padding-block: calc(var(--spacing) * 4);
+  }
+  .py-4\.5 {
+    padding-block: calc(var(--spacing) * 4.5);
+  }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
@@ -399,14 +369,14 @@
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
   }
+  .py-12 {
+    padding-block: calc(var(--spacing) * 12);
+  }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
   .pb-6 {
     padding-bottom: calc(var(--spacing) * 6);
-  }
-  .text-center {
-    text-align: center;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -415,10 +385,6 @@
   .text-3xl {
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
-  }
-  .text-lg {
-    font-size: var(--text-lg);
-    line-height: var(--tw-leading, var(--text-lg--line-height));
   }
   .text-xl {
     font-size: var(--text-xl);
@@ -446,6 +412,9 @@
   }
   .text-\[\#333\] {
     color: #333;
+  }
+  .text-\[\#ff1c2b\] {
+    color: #ff1c2b;
   }
   .text-white {
     color: var(--color-white);
@@ -536,27 +505,6 @@
       content: var(--tw-content);
     }
   }
-  .hover\:bg-\[\#\#34ba58\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: ##34ba58;
-      }
-    }
-  }
-  .hover\:bg-\[\#\#43e86f\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: ##43e86f;
-      }
-    }
-  }
-  .hover\:bg-\[\#34ba58\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #34ba58;
-      }
-    }
-  }
   .hover\:bg-\[\#36c95e\] {
     &:hover {
       @media (hover: hover) {
@@ -586,6 +534,26 @@
       }
     }
   }
+  .after\:hover\:bg-\[\#333\] {
+    &::after {
+      content: var(--tw-content);
+      &:hover {
+        @media (hover: hover) {
+          background-color: #333;
+        }
+      }
+    }
+  }
+  .after\:hover\:bg-\[\#aaa\] {
+    &::after {
+      content: var(--tw-content);
+      &:hover {
+        @media (hover: hover) {
+          background-color: #aaa;
+        }
+      }
+    }
+  }
   .focus\:outline-none {
     &:focus {
       --tw-outline-style: none;
@@ -605,11 +573,6 @@
   .active\:bg-\[\#f8fc68\] {
     &:active {
       background-color: #f8fc68;
-    }
-  }
-  .active\:bg-\[4AFF7A\] {
-    &:active {
-      background-color: 4AFF7A;
     }
   }
 }
